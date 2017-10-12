@@ -46,7 +46,7 @@ public class IndexController {
 		Page<GoodsModel> page = igs.getByConditionPage(gqm);
 		
 		model.addAttribute("page",page);
-		
+		System.out.println("测试是否上传到github");
 		
 		return "index";
 	}
