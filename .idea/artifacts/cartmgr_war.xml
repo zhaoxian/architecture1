@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cartmgr:war">
+    <output-path>$PROJECT_DIR$/cartmgr/target</output-path>
+    <root id="archive" name="cartmgr.war">
+      <element id="artifact" artifact-name="cartmgr:war exploded" />
+    </root>
+  </artifact>
+</component>
